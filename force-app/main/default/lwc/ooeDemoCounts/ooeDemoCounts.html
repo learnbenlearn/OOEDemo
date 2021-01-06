@@ -1,0 +1,29 @@
+<template>
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-size_1-of-4">
+            <c-ooe-demo-count-card title="Count" value={count}></c-ooe-demo-count-card>
+        </div>
+        <div class="slds-col slds-size_1-of-4">
+            <c-ooe-demo-count-card title="After Trigger Runs" value={atExecutions}></c-ooe-demo-count-card>
+        </div>
+        <div class="slds-col slds-size_1-of-4">
+            <c-ooe-demo-count-card title="After-Save Flow Runs" value={asfExecutions}></c-ooe-demo-count-card>
+        </div>
+        <div class="slds-col slds-size_1-of-4">
+            <c-ooe-demo-count-card title="Before-Save Flow Runs" value={bsfExecutions}></c-ooe-demo-count-card>
+        </div>
+        <div class="slds-col slds-size_1-of-4">
+            <c-ooe-demo-count-card title="Before Trigger Runs" value={btExecutions}></c-ooe-demo-count-card>
+        </div>
+        <div class="slds-col slds-size_1-of-4">
+            <c-ooe-demo-count-card title="Process Runs" value={pExecutions}></c-ooe-demo-count-card>
+        </div>
+        <div class="slds-col slds-size_1-of-4">
+            <c-ooe-demo-count-card title="Workflow Rule Runs" value={wfrExecutions}></c-ooe-demo-count-card>
+        </div>
+        <div class="slds-col slds-size_1-of-4"></div>
+        <div class="slds-col slds-size_1-of-4">
+            <c-ooe-demo-count-card title="Master Before Trigger Runs" value={mrOrderOfExecutions}></c-ooe-demo-count-card>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,12 @@
+<template>
+    <template if:true={parentId}>
+        <lightning-card title="OOE Demo Parent">
+            <lightning-record-view-form record-id={parentId} object-api-name="OOE_Demo_Parent__c">
+                <div class="slds-p-around_medium">
+                    <lightning-output-field field-name="Name"></lightning-output-field>
+                    <lightning-output-field field-name="Total_Count__c"></lightning-output-field>
+                </div>
+            </lightning-record-view-form>
+        </lightning-card>
+    </template>
+</template>

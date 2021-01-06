@@ -1,0 +1,25 @@
+<template>
+    <template if:false={showResults}>
+        <c-ooe-demo-create-form></c-ooe-demo-create-form>
+
+        <br/>
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-button label="Show Results" onclick={handleShowResults}></lightning-button>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-button label="Reset" onclick={handleReset}></lightning-button>
+            </div>
+        </div>
+    </template>
+
+    <template if:true={showResults}>
+        <lightning-card>
+            <c-ooe-demo-results></c-ooe-demo-results>
+        </lightning-card>
+        
+        <br/>
+        <lightning-button label="Reset" onclick={handleReset}></lightning-button>
+    </template>
+
+</template>

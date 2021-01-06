@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Message channel for OOE Demo.</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>Counts of tool executions for a given demo run.</description>
+        <fieldName>counts</fieldName>
+    </lightningMessageFields>
+    <masterLabel>OOE Demo Message Channel</masterLabel>
+</LightningMessageChannel>

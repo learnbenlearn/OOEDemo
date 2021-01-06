@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Constants</members>
+        <members>DemoController</members>
+        <members>OOEDemoParentTrigger_Helper</members>
+        <members>OOEDemoTrigger_Helper</members>
+        <members>OOEEvent</members>
+        <members>SenderDataType</members>
+        <name>ApexClass</name>
+    </types>
+
+    <types>
+        <members>OOEEventTrigger</members>
+        <members>OOEDemoParentTrigger</members>
+        <members>OOEDemoTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+
+    <types>
+        <members>ooe_demo</members>
+        <name>ContentAsset</name>
+    </types>
+    
+    <types>
+        <members>OOE_Demo</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <types>
+        <members>OOE_Demo__c</members>
+        <members>OOE_Demo_Parent__c</members>
+        <members>OOE_Event__e</members>
+        <members>OOE_Message__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <types>
+        <members>Demo</members>
+        <members>OOE_Demo__c</members>
+        <members>OOE_Demo_Parent__c</members>
+        <members>OOE_Message__c</members>
+        <name>CustomTab</name>
+    </types>
+
+    <types>
+        <members>Demo</members>
+        <members>OOE_Demo_UtilityBar</members>
+        <name>FlexiPage</members>
+    </types>
+
+    <types>
+        <members>After_Save_Flow</members>
+        <members>Before_Save_Flow</members>
+        <members>Process</members>
+        <name>Flow</name>
+    </types>
+
+    <types>
+        <members>ooeDemoContainer</members>
+        <members>ooeDemoCounts</members>
+        <members>ooeDemoCountCard</members>
+        <members>ooeDemoCreateForm</members>
+        <members>ooeDemoResults</members>
+        <members>parentViewForm</members>
+        <name>LightningComponentBundle</name>
+    </types>
+
+    <types>
+        <members>DemoMessageChannel</name>
+        <name>LightningMessageChannel</name>
+    </types>
+
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+
+    <types>
+        <members>OOE_Demo__c</members>
+        <name>Workflow</name>
+    </types>
+    <version>50.0</version>
+</Package>

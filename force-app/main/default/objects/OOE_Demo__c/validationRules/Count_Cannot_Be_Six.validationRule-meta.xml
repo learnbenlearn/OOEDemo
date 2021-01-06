@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Count_Cannot_Be_Six</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Run_Process_Validation__c, Count__c == 6)</errorConditionFormula>
+    <errorDisplayField>Count__c</errorDisplayField>
+    <errorMessage>The Count cannot be 6.</errorMessage>
+</ValidationRule>

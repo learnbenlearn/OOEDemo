@@ -1,0 +1,19 @@
+<template>
+    <c-ooe-demo-counts count={count} at-executions={atExecutions} asf-executions={asfExecutions}
+        bsf-executions={bsfExecutions} bt-executions={btExecutions} p-executions={pExecutions}
+        wfr-executions={wfrExecutions} mr-order-of-executions={mrOrderOfExecutions}>
+    </c-ooe-demo-counts>
+
+    <div class="slds-text-heading_medium slds-p-around_small">Order of Execution Steps</div>
+    <ul class="slds-p-left_xx-large">
+        <template for:each={displayData} for:item="step" for:index="index">
+            <li key={step.Message__c}>
+                ({index}) <b key={step.Message__c}>{step.Tool__c}</b> : {step.Message__c}
+            </li>
+        </template>
+    </ul>
+
+    <div class="slds-p-around_small">
+        <lightning-button label="Refresh" onclick={refreshData}></lightning-button>
+    </div>
+</template>

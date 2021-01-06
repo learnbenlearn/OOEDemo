@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Count_Cannot_Be_Three</fullName>
+    <active>true</active>
+    <errorConditionFormula>Count__c == 3</errorConditionFormula>
+    <errorDisplayField>Count__c</errorDisplayField>
+    <errorMessage>The Count cannot be 3.</errorMessage>
+</ValidationRule>
