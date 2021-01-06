@@ -42,16 +42,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>OOE_Demo__c.After_Save_Flow_Runs__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OOE_Demo__c.After_Trigger_Runs__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>OOE_Demo__c.Before_Save_Flow_Runs__c</field>
         <readable>true</readable>
     </fieldPermissions>
