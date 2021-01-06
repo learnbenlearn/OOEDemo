@@ -17,13 +17,11 @@ public class OOEDemoTrigger_Helper {
     }
 
     public static void beforeUpdate(OOE_Demo__c oldOOE, OOE_Demo__c newOOE) {
-        Integer newSumToolRuns = Integer.valueOf(newOOE.After_Save_Flow_Runs__c + 
-                                                 newOOE.Before_Save_Flow_Runs__c +
+        Integer newSumToolRuns = Integer.valueOf(newOOE.Before_Save_Flow_Runs__c +
                                                  newOOE.Before_Trigger_Runs__c +
                                                  newOOE.Process_Builder_Runs__c +
                                                  newOOE.Workflow_Rule_Runs__c);
-        Integer oldSumToolRuns = Integer.valueOf(oldOOE.After_Save_Flow_Runs__c +
-                                                 oldOOE.Before_Save_Flow_Runs__c +
+        Integer oldSumToolRuns = Integer.valueOf(oldOOE.Before_Save_Flow_Runs__c +
                                                  oldOOE.Before_Trigger_Runs__c +
                                                  oldOOE.Process_Builder_Runs__c +
                                                  oldOOE.Workflow_Rule_Runs__c);
